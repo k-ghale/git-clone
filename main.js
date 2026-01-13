@@ -14,12 +14,6 @@
 		this.message = message;
 	}
 
-	/**
-	 * Branch class.
-	 * A Branch.
-	 * @param {string} name 	Branch name.
-	 * @param {number} commit   Commit it points to.
-	 */
 	function Branch(name, commit) {
 		this.name = name;
 		this.commit = commit;
